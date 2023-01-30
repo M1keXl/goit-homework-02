@@ -4,6 +4,7 @@
 --secondary-text-color-dark-theme: #E7E9FC;
 --secondary-text-color-white-theme: #434455;
 --primary-text-color-dark-theme:#ffffff;
+--links-hover:#404BBF;
 }
 .list {
     list-style: none;
@@ -15,7 +16,7 @@
 
 }
 .body{
-    color: var(--primary-text-color-white-theme);
+    
     font-family: 'Roboto', sans-serif;
 
 }
@@ -29,7 +30,7 @@
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;    
-color: var(--primary-text-color-white-theme);
+        color: var(--primary-text-color-white-theme);
         order: 1;
 }
 .logo-blue-part{
@@ -47,13 +48,12 @@ color: var(--primary-text-color-white-theme);
         color: var(--primary-text-color-white-theme);   
     
 }
-.menu-link:hover, .menu-link:focus{
-color: #404BBF;
-
+.menu-link:active{
+color: var(--links-hover);
 }
 .contact{
    
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -62,7 +62,7 @@ color: #404BBF;
 
 }
 .contact:hover, .contact:focus{
-color: #404BBF;
+color: var(--links-hover);
 
 }
 .hero-title{
@@ -73,7 +73,7 @@ color: #404BBF;
     text-align: center;
     letter-spacing: 0.02em;
 
-   /* color: #FFFFFF; */
+   color: var(--primary-text-color-dark-theme); 
 }
 .skill-name{
   
@@ -92,9 +92,9 @@ color: #404BBF;
     color: var(--secondary-text-color-white-theme);
     order: 1;
 }
-.h2-title{
+.team-title{
 
-    font-weight: 700;
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -124,9 +124,10 @@ color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /*color: var(--secondary-text-color-dark-theme);*/
+    color: var(--secondary-text-color-dark-theme);
 }
 .hero-button{
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -134,15 +135,15 @@ color: #404BBF;
         align-items: center;
         letter-spacing: 0.04em;
         cursor: pointer;
-        color: #FFFFFF;
+        color: var(--primary-text-color-dark-theme);
         background-color: #4D5AE5;
         border: none;
 }
 .hero-button:hover, .hero-button:focus{
-background-color: #404BBF;
+background-color: var(--links-hover);
 }
 .logo-footer{
-    /*color: #F4F4FD;*/
+    color: #F4F4FD;
 }
 .button-list{
     font-weight: 500;
@@ -157,10 +158,11 @@ background-color: #404BBF;
     background-color: #F4F4FD;
     border: none;
     cursor: pointer;
+    font-family: inherit;
 }
 .button-list:focus, .button-list:hover{
-color: #FFFFFF;
-background-color: #404BBF;
+color: var(--primary-text-color-dark-theme);
+background-color: var(--links-hover);
 }
 .name-projects{
 
