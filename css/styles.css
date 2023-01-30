@@ -4,7 +4,7 @@
 --secondary-text-color-dark-theme: #E7E9FC;
 --secondary-text-color-white-theme: #434455;
 --primary-text-color-dark-theme:#ffffff;
---links-hover:#404BBF;
+--links-active:#404BBF;
 }
 .list {
     list-style: none;
@@ -49,7 +49,7 @@
     
 }
 .menu-link:active{
-color: var(--links-hover);
+color: var(--links-active);
 }
 .contact{
    
@@ -62,7 +62,7 @@ color: var(--links-hover);
 
 }
 .contact:hover, .contact:focus{
-color: var(--links-hover);
+color: var(--links-active);
 
 }
 .hero-title{
@@ -162,7 +162,7 @@ background-color: var(--links-hover);
 }
 .button-list:focus, .button-list:hover{
 color: var(--primary-text-color-dark-theme);
-background-color: var(--links-hover);
+background-color: var(--links-active);
 }
 .name-projects{
 
