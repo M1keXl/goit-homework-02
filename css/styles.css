@@ -48,7 +48,7 @@
         color: var(--primary-text-color-white-theme);   
     
 }
-.menu-link:active{
+.menu-link:active, .menu-link:hover, .menu-link:focus{
 color: var(--links-active);
 }
 .contact{
@@ -140,7 +140,7 @@ color: var(--links-active);
         border: none;
 }
 .hero-button:hover, .hero-button:focus{
-background-color: var(--links-hover);
+background-color: var(--links-active);
 }
 .logo-footer{
     color: #F4F4FD;
